@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221018 22:12:59.384" rpa="false" schemaversion="3">
+<suite id="s1" name="Crm" source="C:\development\robot-scripts\crm\tests\crm.robot">
+<test id="s1-t1" name="Should be able to add new customer" line="12">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>.2s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221018 22:12:59.552" endtime="20221018 22:12:59.552"/>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<arg>10s</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" starttime="20221018 22:12:59.553" endtime="20221018 22:12:59.553"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Starting the test case!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221018 22:12:59.553" level="INFO">Starting the test case!</msg>
+<status status="PASS" starttime="20221018 22:12:59.553" endtime="20221018 22:12:59.553"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://automationplayground.com/crm/</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221018 22:12:59.553" level="INFO">Opening browser 'edge' to base url 'https://automationplayground.com/crm/'.</msg>
+<status status="PASS" starttime="20221018 22:12:59.553" endtime="20221018 22:13:01.262"/>
+</kw>
+<kw name="Set Window Position" library="SeleniumLibrary">
+<arg>x=341</arg>
+<arg>y=169</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20221018 22:13:01.262" endtime="20221018 22:13:01.587"/>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<arg>width=1935</arg>
+<arg>height=1090</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20221018 22:13:01.587" endtime="20221018 22:13:01.911"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221018 22:13:04.915" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221018 22:13:01.911" endtime="20221018 22:13:04.915"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221018 22:13:04.915" endtime="20221018 22:13:07.187"/>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>1006</tag>
+<tag>Contacts</tag>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20221018 22:12:59.551" endtime="20221018 22:13:07.189"/>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" starttime="20221018 22:12:59.385" endtime="20221018 22:13:07.193"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">1006</stat>
+<stat pass="1" fail="0" skip="0">Contacts</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Crm">Crm</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
